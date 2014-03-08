@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    background-color: #000000;
+}
+
+#navbar {
+    width: 100%;
+    height: 4em;
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFF7FA),
+	color-stop(0.44, #EBC1D3),
+	color-stop(1, #E19EBA)
+);
+background-image: -o-linear-gradient(bottom, #FFF7FA 0%, #EBC1D3 44%, #E19EBA 100%);
+background-image: -moz-linear-gradient(bottom, #FFF7FA 0%, #EBC1D3 44%, #E19EBA 100%);
+background-image: -webkit-linear-gradient(bottom, #FFF7FA 0%, #EBC1D3 44%, #E19EBA 100%);
+background-image: -ms-linear-gradient(bottom, #FFF7FA 0%, #EBC1D3 44%, #E19EBA 100%);
+background-image: linear-gradient(to bottom, #FFF7FA 0%, #EBC1D3 44%, #E19EBA 100%);
+}
