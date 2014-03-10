@@ -13,7 +13,7 @@ header {
 	color-stop(0, #FFF7FA),
 	color-stop(0.44, #EBC1D3),
 	color-stop(1, #E19EBA)
-//Im not exactly sure how to do this, but this is an effect that I think would look nice!'	
+/*Im not exactly sure how to do this, but this is an effect that I think would look nice!*/	
 	
 	.modern {
   display: inline-block;
