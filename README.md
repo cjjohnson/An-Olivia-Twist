@@ -8,3 +8,5 @@ photo hosting server (plus.google.com/photos), and comment service (disqus.com).
 
 09/03/2014 - Uploaded photos to server. Edited some photos. Made some very minor edits to pages,
 added a short message to potential viewers.
+
+10/03/2014 - Added some CSS for navbar. Didn't work, and I don't know what I am doing wrong. I will leave the coding to the experts.
