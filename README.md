@@ -12,3 +12,5 @@ added a short message to potential viewers.
 10/03/2014 - Added some CSS for navbar. Didn't work, and I don't know what I am doing wrong. I will leave the coding to the experts.
 
 19/03/2014 - Minor changes. Spelling fix on hompage. Fixed broken links on other pages.
+
+20/03/2014 - Changed Google hosted banner links to reflect latest design.
