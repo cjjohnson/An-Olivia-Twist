@@ -32,3 +32,5 @@ added a short message to potential viewers.
       font-family: 'Cardo', serif;
       
 **3.** Look into video hosting from Godtube. Edit and upload trailer. (Caleb)
+
+**4.** Create a rough outline for other pages. (Caleb)
