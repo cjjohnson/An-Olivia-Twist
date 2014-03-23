@@ -14,3 +14,21 @@ added a short message to potential viewers.
 19/03/2014 - Minor changes. Spelling fix on hompage. Fixed broken links on other pages.
 
 20/03/2014 - Changed Google hosted banner links to reflect latest design.
+
+***PROPOSED CHANGES***
+======================
+**1.** Change background colour (on edges) to black, or a dark abstract background.
+
+**2.** Import and assign fonts.
+
+  **a. - HTML for page header**
+    
+      <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic|Homemade+Apple|Cardo:400,400italic' rel='stylesheet' type='text/css'>
+    
+  **b. - CSS for stylesheet**
+    
+      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Homemade Apple', cursive;
+      font-family: 'Cardo', serif;
+      
+**3.** Look into video hosting from Godtube. Edit and upload trailer. (Caleb)
