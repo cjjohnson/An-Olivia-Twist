@@ -15,6 +15,8 @@ added a short message to potential viewers.
 
 20/03/2014 - Changed Google hosted banner links to reflect latest design.
 
+23/03/2014 - Added content to homepage. Made some minor parameter edits. Embedded test video. 
+
 ***PROPOSED CHANGES***
 ======================
 **1.** Change background colour (on edges) to black, or a dark abstract background.
