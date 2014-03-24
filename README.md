@@ -15,13 +15,15 @@ added a short message to potential viewers.
 
 20/03/2014 - Changed Google hosted banner links to reflect latest design.
 
-23/03/2014 - Added content to homepage. Made some minor parameter edits. Embedded test video. 
+23/03/2014 - Added content to homepage. Made some minor parameter edits. Embedded test video.
+
+24/03/2014 - Tested and used blog. Works great!
 
 ***PROPOSED CHANGES***
 ======================
-**1.** Change background colour (on edges) to black, or a dark abstract background.
+[ ] **1.** Change background on sides to dark abstract image.
 
-**2.** Import and assign fonts.
+[ ] **2.** Import and assign fonts.
 
   **a. - HTML for page header**
     
@@ -33,6 +35,8 @@ added a short message to potential viewers.
       font-family: 'Homemade Apple', cursive;
       font-family: 'Cardo', serif;
       
-**3.** Look into video hosting from Godtube. Edit and upload trailer. (Caleb)
+[x] **3.** Look into video hosting from Godtube. 
 
-**4.** Create a rough outline for other pages. (Caleb)
+[ ] **4.** Edit and upload promo.
+
+[ ] **5.** Create a rough outline for other pages. (Caleb)
