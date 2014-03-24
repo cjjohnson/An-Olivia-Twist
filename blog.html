@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>Blog</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
                 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 	</head>
@@ -26,9 +27,14 @@
 					</div>
 				</nav>
 
-				<div id="disqus_thread"></div>
-				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-				<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+				<div id="post_list"></div>
+                                <div id="post">
+                                        <div id="current_post"></div>
+					<div id="disqus_thread"></div>
+					<noscript>Please enable JavaScript to view the blog and the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+				</div>
+
 			</div>
 		</center>
 
@@ -44,6 +50,9 @@
 			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 		})();
 		</script>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="blog.js"></script>
 
 	</body>
 </html>

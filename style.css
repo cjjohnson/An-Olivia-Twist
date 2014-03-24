@@ -1,3 +1,12 @@
+#post_list p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#post {
+    margin-left: 25%;
+}
+
 #navbarCollapse {
     background-image: -webkit-gradient(
 	linear,
