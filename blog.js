@@ -86,4 +86,6 @@ if(window.location.hash) {
         var id = window.location.hash.slice(1).replace('!', '');
         $("#" + id).click();
     }, 1000);
+} else {
+    $("#post_list p").get(0).click();
 }
