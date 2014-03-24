@@ -21,9 +21,9 @@ added a short message to potential viewers.
 
 ***PROPOSED CHANGES***
 ======================
-[ ] **1.** Change background on sides to dark abstract image.
+- [ ] **1.** Change background on sides to dark abstract image.
 
-[ ] **2.** Import and assign fonts.
+- [ ] **2.** Import and assign fonts.
 
   **a. - HTML for page header**
     
@@ -35,8 +35,8 @@ added a short message to potential viewers.
       font-family: 'Homemade Apple', cursive;
       font-family: 'Cardo', serif;
       
-[x] **3.** Look into video hosting from Godtube. 
+- [x] **3.** Look into video hosting from Godtube. 
 
-[ ] **4.** Edit and upload promo.
+- [ ] **4.** Edit and upload promo.
 
-[ ] **5.** Create a rough outline for other pages. (Caleb)
+- [ ] **5.** Create a rough outline for other pages. (Caleb)
