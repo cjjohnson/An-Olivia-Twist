@@ -19,7 +19,7 @@ added a short message to potential viewers.
 
 24/03/2014 - Tested and used blog. Works great!
 
-26/03/2014 - Added content to video page. Uploaded video. Having slight problem with script for blog.
+27/03/2014 - Added content to video page. Uploaded video. Having slight problem with script for blog.
 
 ***PROPOSED CHANGES***
 ======================
