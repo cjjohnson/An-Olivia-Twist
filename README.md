@@ -1,5 +1,6 @@
 An-Olivia-Twist
 ===============
+**PLEASE SEE THE OTHER BRANCH FOR THE ACTUAL SORUCE CODE.** Since all of the pages are so similar, I decided to try a templating thing. Editing this branch will kind of mess that up. If you want to edit, edit the other branch. I'll try to explain bette later.
 
 An Olivia Twist - Website v1.0
 
