@@ -22,24 +22,24 @@ added a short message to potential viewers.
 
 27/03/2014 - Added content to video page. Uploaded video. Having slight problem with script for blog.
 
+08/07/2014 - Began work of cast page. Edited and uploaded photos. Slight problem with branches.
+
+09/07/2014 - Implemented Google Analytics. Copied work to be completed to readme file.
+
 ***PROPOSED CHANGES***
 ======================
-- [ ] Change background on sides to dark abstract image.
+-index.html
+   -  [ ] Remove "Under Construction" notice.
+   -  [ ] A few months ago, I wrote a few columns of text below the video. They seem to have disappeared. I can send you the text if you need it, but it needs to be inserted and formatted properly.
 
-- [ ] Import and assign fonts.
+-cast.html
+   -  [ ] I know that this mostly relies on me, to get photos and everything, but as soon as I do, they will need to be formatted/lain out.
+   -  [ ] I also need instructions on how to upload photos to github, or wherever we decided to host them.
 
-  **a. - HTML for page header**
-    
-      <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic|Homemade+Apple|Cardo:400,400italic' rel='stylesheet' type='text/css'>
-    
-  **b. - CSS for stylesheet**
-    
-      font-family: 'Noto Sans', sans-serif;
-      font-family: 'Homemade Apple', cursive;
-      font-family: 'Cardo', serif;
-      
-- [x] Look into video hosting from Godtube. 
-
-- [x] Edit and upload promo.
-
-- [ ] Create a rough outline for other pages. (Caleb)
+-photos.html
+   -  [ ] There seems to be a problem with the photo viewer that has to do with where the page is scrolled. Sometimes if you scroll down, the whole page will turn black, or the picture will disappear.
+   - [ ]  As soon as possible we would like to insert several more photo galleries on the same page, (ie. Production Day 1, Behind-The-Scenes). I would like if you could tell me how to add photos to the gallery, then I could do it myself in the future.
+   -  [ ] Is there any way to have descriptions (captions) with each photo? It would be really nice to be able to do that.
+ 
+-videos.html
+   - [ ] For some reason, the page title is An Olivia Twist - Photos. It should be changed to Videos.
