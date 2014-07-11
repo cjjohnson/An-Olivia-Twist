@@ -42,4 +42,4 @@ added a short message to potential viewers.
    -  [ ] Is there any way to have descriptions (captions) with each photo? It would be really nice to be able to do that.
  
 -videos.html
-   - [ ] For some reason, the page title is An Olivia Twist - Photos. It should be changed to Videos.
+   - [x] For some reason, the page title is An Olivia Twist - Photos. It should be changed to Videos.
