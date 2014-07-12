@@ -30,16 +30,16 @@ added a short message to potential viewers.
 ======================
 -index.html
    -  [ ] Remove "Under Construction" notice.
-   -  [ ] A few months ago, I wrote a few columns of text below the video. They seem to have disappeared. I can send you the text if you need it, but it needs to be inserted and formatted properly.
+   -  [x] A few months ago, I wrote a few columns of text below the video. They seem to have disappeared. I can send you the text if you need it, but it needs to be inserted and formatted properly.
 
 -cast.html
    -  [ ] I know that this mostly relies on me, to get photos and everything, but as soon as I do, they will need to be formatted/lain out.
    -  [ ] I also need instructions on how to upload photos to github, or wherever we decided to host them.
 
 -photos.html
-   -  [ ] There seems to be a problem with the photo viewer that has to do with where the page is scrolled. Sometimes if you scroll down, the whole page will turn black, or the picture will disappear.
-   - [ ]  As soon as possible we would like to insert several more photo galleries on the same page, (ie. Production Day 1, Behind-The-Scenes). I would like if you could tell me how to add photos to the gallery, then I could do it myself in the future.
-   -  [ ] Is there any way to have descriptions (captions) with each photo? It would be really nice to be able to do that.
+   -  [x] There seems to be a problem with the photo viewer that has to do with where the page is scrolled. Sometimes if you scroll down, the whole page will turn black, or the picture will disappear.
+   - [x]  As soon as possible we would like to insert several more photo galleries on the same page, (ie. Production Day 1, Behind-The-Scenes). I would like if you could tell me how to add photos to the gallery, then I could do it myself in the future.
+   -  [x] Is there any way to have descriptions (captions) with each photo? It would be really nice to be able to do that.
  
 -videos.html
    - [x] For some reason, the page title is An Olivia Twist - Photos. It should be changed to Videos.
