@@ -17,20 +17,12 @@ $(function () {
 
     posts = [];
 
-
     $.ajax({
         async: false,
         dataType: "json",
         url: "https://roon.io/api/v1/blogs/" + USERNAME + "/posts",
         success: function (data) {
             $.each(data, function (key, val) {
-                var image_tag = $("<img/>");
-                image_tag.attr('id', 'post_image');
-
-                if(val.featured_medium) {
-                    image_tag.attr('src', val.featured_medium.original.url);
-                }
-
                 posts.push({
                     title: $("<p/>", {
                         html: val.title
@@ -41,7 +33,6 @@ $(function () {
                     content: $("<p/>", {
                         html: val.content_html
                     }),
-                    image: $(image_tag),
                     slug: val.slug
                 });
             });
@@ -60,11 +51,10 @@ $(function () {
             disqus_title = $(value.title[0]).html();
 
             $("#current_post").html("");
-            $("#current_post").append($(value.image[0]).clone());
             $("#current_post").append($("<h3/>", { html: $(value.title[0]).clone().html() }));
             $("#current_post").append($(value.date[0]).clone());
             $("#current_post").append($(value.content[0]).clone());
-            $("#post_image").attr('width', '100%');
+
             reset_disqus(disqus_title);
         });
     });
