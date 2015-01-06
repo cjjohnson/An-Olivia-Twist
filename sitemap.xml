@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://www.anoliviatwist.com</loc>
+	<lastmod>2013-01-01</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>http://www.anoliviatwist.com/blog</loc>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://www.anoliviatwist.com/cast</loc>
+	<lastmod>2013-01-02</lastmod>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://www.anoliviatwist.com/videos</loc>
+	<lastmod>2013-01-02T13:00:12+00:00</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.anoliviatwist.com/photos</loc>
+	<lastmod>2013-01-02T13:00:12+00:00</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.anoliviatwist.com/beyond-the-mask</loc>
+	<lastmod>2013-01-02T13:00:12+00:00</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.anoliviatwist.com/biblebee</loc>
+	<lastmod>2013-01-02T13:00:12+00:00</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.anoliviatwist.com/biblebee/photos</loc>
+	<lastmod>2013-01-02T13:00:12+00:00</lastmod>
+	<priority>0.5</priority>
+</url>
+</urlset>
