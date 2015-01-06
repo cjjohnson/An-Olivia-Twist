@@ -23,6 +23,13 @@ p {
 #post_list p {
     font-family: 'Homemade Apple', cursive !important;
 }
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
 
 h1, h2, h3, h4, h5, h6, .navbar-header, #navbarCollapse {
     font-family: 'Homemade Apple', cursive !important;
