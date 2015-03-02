@@ -13,27 +13,25 @@ var reset_disqus = function(identifier) {
 };
 
 $(function () {
-    var USERNAME = "anoliviatwist";
-
     posts = [];
 
     $.ajax({
         async: false,
         dataType: "json",
-        url: "https://roon.io/api/v1/blogs/" + USERNAME + "/posts",
+        url: "https://www.googleapis.com/blogger/v3/blogs/3432018582304648349/posts?key=AIzaSyDu2FQVu5Q74NNd88D0ijV5nmBeYCZ3FqI",
         success: function (data) {
-            $.each(data, function (key, val) {
+            $.each(data.items, function (index, val) {
                 posts.push({
                     title: $("<p/>", {
                         html: val.title
                     }),
                     date: $("<p/>", {
-                        html: new Date(val.published_at * 1000.0).toUTCString()
+                        html: new Date(val.published).toUTCString()
                     }),
                     content: $("<p/>", {
-                        html: val.content_html
+                        html: val.content
                     }),
-                    slug: val.slug
+                    slug: val.url.split('.html')[0].split('/').pop()
                 });
             });
         },
