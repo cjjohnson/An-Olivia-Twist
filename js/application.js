@@ -34,39 +34,104 @@ $(function () {
                     slug: val.url.split('.html')[0].split('/').pop()
                 });
             });
-        },
-        error: function(e) {
-            $("#post_list").html("Could not load posts");
+        }//,
+        //error: function(e) {
+        //    $("#post_list").html("Could not load posts");
+        //}
+    });
+
+    //$.each(posts, function (key, value) {
+    //    $("#post_list").append($(value.title[0]));
+    //    $(value.title[0]).attr("id", value.slug);
+
+    //    $(value.title[0]).click(function () {
+    //      window.location.href = window.location.origin + window.location.pathname + "#!" + value.slug;
+    //        disqus_title = $(value.title[0]).html();
+
+    //        $("#current_post").html("");
+    //        $("#current_post").append($("<h3/>", { html: $(value.title[0]).clone().html() }));
+    //        $("#current_post").append($(value.date[0]).clone());
+    //        $("#current_post").append($(value.content[0]).clone());
+
+    //        reset_disqus(disqus_title);
+    //    });
+    //});
+
+    var on_click = function(post) {
+        window.location.href = window.location.origin + window.location.pathname + "#!" + post.slug;
+        disqus_title = $(post.title[0]).html();
+
+        $("#current_post").html("");
+        $("#current_post").append($("<h3/>", { html: $(post.title[0]).clone().html() }));
+        $("#current_post").append($(post.date[0]).clone());
+        $("#current_post").append($(post.content[0]).clone());
+
+        reset_disqus(disqus_title);
+    }
+
+    var position = 0;
+
+    $("#previous").click(function() {
+        if(position < posts.length - 1) {
+            position = position + 1;
+
+            // If previous has been clicked, than there must be a "next" post.
+            $("#next").show()
+
+            if(position == posts.length - 1) {
+                $("#previous").hide();
+            } else {
+                $("#previous").show();
+            }
+
+            on_click(posts[position]);
         }
     });
 
-    $.each(posts, function (key, value) {
-        $("#post_list").append($(value.title[0]));
-        $(value.title[0]).attr("id", value.slug);
+    $("#next").click(function() {
+        if(position > 0) {
+            position = position - 1;
 
-        $(value.title[0]).click(function () {
-	    window.location.href = window.location.origin + window.location.pathname + "#!" + value.slug;
-            disqus_title = $(value.title[0]).html();
+            $("#previous").show()
 
-            $("#current_post").html("");
-            $("#current_post").append($("<h3/>", { html: $(value.title[0]).clone().html() }));
-            $("#current_post").append($(value.date[0]).clone());
-            $("#current_post").append($(value.content[0]).clone());
+            if(position == 0) {
+                $("#next").hide();
+            } else {
+                $("#next").show();
+            }
 
-            reset_disqus(disqus_title);
-        });
+            on_click(posts[position]);
+        }
     });
 
     var update = function() {
         var id = window.location.hash.slice(1).replace('!', '');
-        $("#" + id).click();
-        $("#sidebar").css('height', $("#post").css('height'));
+
+        for(var i = 0; i < posts.length; i++) {
+            if(posts[i].slug == id) {
+                position = i;
+                on_click(posts[position]);
+
+                if(position == posts.length - 1) {
+                    $("#previous").hide();
+                } else if(position == 0) {
+                    $("#next").hide();
+                }
+
+                break;
+            }
+        }
+        //$("#" + id).click();
+        //$("#sidebar").css('height', $("#post").css('height'));
     }
+
 
     if(window.location.hash) {
         update();
     } else {
-        $("#post_list p").get(0).click();
+        on_click(posts[position]);
+        $("#next").hide();
+        //$("#post_list p").get(position).click();
     }
 
     window.onhashchange = function() {
